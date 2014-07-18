@@ -22,6 +22,8 @@ If you answered yes to all of the above questions you have been in the same situ
 ###Packaging:
 
 ```
+$ git clone git@github.com:kbotnen/fuslight.git
+$ cd fuslight
 $ pip install py2app
 $ py2applet --make-setup fuslight.py
 $ rm -rf build dist
